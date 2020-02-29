@@ -17,7 +17,7 @@ import com.ondrej.myExceptions.MyException;
 public class ValidatorTest {
 
 	@Autowired
-	@Qualifier("stringValidator")
+	@Qualifier("stringValidatorImpl")
 	Validator validator;
 	
 	@Test
