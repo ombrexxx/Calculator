@@ -18,7 +18,7 @@ public class Calculator {
 	private Operation operation;
 	
 	@Autowired
-	@Qualifier("stringValidator")
+	@Qualifier("stringValidatorImpl")
 	private Validator validator;	
 	
 	public int validateAndCompute() {
